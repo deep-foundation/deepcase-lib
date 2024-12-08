@@ -58,6 +58,7 @@ import * as reacti18next from "react-i18next";
 import { packageLog } from '../package-log';
 import CytoGraph from './cyto/graph';
 import * as reactYandexMaps from '@pbe/react-yandex-maps'
+import * as warframeMarketPrimeTrashBuyer from '@likissdmd/warframe-market-prime-trash-buyer'
 // import ReactCalendarTimeline from 'react-calendar-timeline'
 import moment from 'moment'
 import { useEditorTabs } from './cyto/editor';
@@ -286,6 +287,7 @@ r.list = {
   'i18next-browser-languagedetector': LanguageDetector,
   "react-i18next": reacti18next,
   "@pbe/react-yandex-maps": reactYandexMaps,
+  "@likissdmd/warframe-market-prime-trash-buyer": warframeMarketPrimeTrashBuyer,
   // "react-calendar-timeline": ReactCalendarTimeline,
   "moment": moment,
   "react-hook-form": reactHookForm
